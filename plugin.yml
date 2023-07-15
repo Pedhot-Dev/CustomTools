@@ -1,0 +1,19 @@
+name: CustomTools
+api: 5.0.0
+version: 1.0.0
+main: PedhotDev\CustomTools\Main
+author: PedhotDev
+
+permissions:
+  customtools:
+    description: "Use everything in CustomTools"
+    default: false
+  customtools.command:
+    description: "Use /customtools"
+    default: op
+  customtools.command.give:
+    description: "Use /customtools give"
+    default: op
+  customtools.command.list:
+    description: "Use /customtools list"
+    default: op

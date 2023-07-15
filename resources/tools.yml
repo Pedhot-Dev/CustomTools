@@ -1,0 +1,32 @@
+# This is name of tool
+ExamplePickaxe:
+  # This is the type of the tools, available: sword, pickaxe, axe, shovel, hoe.
+  type: pickaxe
+
+  # This is the tier of the tools, available: wooden, stone, gold, iron, diamond, netherite.
+  tier: wooden
+
+  # Set this to true to give tool a glint even when not enchanted.
+  glint: true
+
+  # This is the durability of the tools, must be >= 0.
+  # Set this to 0 to make it unbreakable tool
+  # Durability 2032 is like netherite tool
+  durability: 2032
+
+  # This is the mining efficiency of the tool, must be > 0.
+  # Efficiency 9 is like netherite tool.
+  mining-efficiency: 9
+
+  # This is the attack points of the tool, must be > 0.
+  # Attack Points 9 is like netherite tool.
+  attack-points: 9
+
+  # This is the custom name of the tool.
+  # Use (&) for coloring.
+  name: "&aExample Wooden Pickaxe"
+
+  # This is the lore of the tool.
+  # Use (&) for coloring.
+  lore:
+    - "&7Example Wooden Pickaxe"

@@ -1,0 +1,13 @@
+ExampleSword:
+  shapes:
+    - " A "
+    - " A "
+    - " B "
+
+  materials:
+    A:
+      id: "minecraft:oak_wood"
+      amount: 64
+    B:
+      id: "minecraft:stick"
+      amount: 64
