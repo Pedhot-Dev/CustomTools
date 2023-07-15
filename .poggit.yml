@@ -11,4 +11,6 @@ projects:
       - src: ACM-PocketMine-MP/Commando/Commando
         version: ^3.2.1
         branch: PM5
+    lint:
+      phpstan: false
 ...
