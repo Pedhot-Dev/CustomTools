@@ -32,3 +32,6 @@ Main::getInstance()->getCustomToolsManager()->registerTools("Tools_Name", $custo
 - [ ] Custom Tools craft
 - [ ] Fix mining speed
 - [ ] Fix glint
+
+## Icons
+Icon by [flaticon]("https://www.flaticon.com/")
