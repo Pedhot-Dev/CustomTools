@@ -62,13 +62,13 @@ class GiveSubCommand extends BaseSubCommand
 
         $item = $tool->getTool();
         if (!$target->getInventory()->canAddItem($item)) {
-            $sender->sendMessage(TextFormat::RED . "You cannot give the " . $tool->getCustomName() . TextFormat::RED . " to " . ($target === $sender ? "yourself" : $target->getName()) . " for unknown reasons!");
+            $sender->sendMessage(TextFormat::RED . "You cannot give the " . TextFormat::colorize($tool->getCustomName()) . TextFormat::RED . " to " . ($target === $sender ? "yourself" : $target->getName()) . " for unknown reasons!");
             return;
         }
         $target->getInventory()->addItem($item);
-        $sender->sendMessage(TextFormat::GREEN . "Successfull gave " . $tool->getCustomName() . TextFormat::GREEN . " to " . ($target === $sender ? "yourself" : $target->getName()) . ".");
+        $sender->sendMessage(TextFormat::GREEN . "Successfull gave " . TextFormat::colorize($tool->getCustomName()) . TextFormat::GREEN . " to " . ($target === $sender ? "yourself" : $target->getName()) . ".");
         if ($target !== $sender) {
-            $target->sendMessage(TextFormat::GREEN . "You received " . $tool->getCustomName() . TextFormat::GREEN . " from " . $sender->getName() . ".");
+            $target->sendMessage(TextFormat::GREEN . "You received " . TextFormat::colorize($tool->getCustomName()) . TextFormat::GREEN . " from " . $sender->getName() . ".");
         }
     }
 
