@@ -34,4 +34,4 @@ Main::getInstance()->getCustomToolsManager()->registerTools("Tools_Name", $custo
 - [ ] Fix glint
 
 ## Icons
-Icon by [flaticon]("https://www.flaticon.com/")
+Icon by [flaticon](https://www.flaticon.com/)
