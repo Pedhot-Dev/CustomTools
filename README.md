@@ -28,7 +28,7 @@ Main::getInstance()->getCustomToolsManager()->registerTools("Tools_Name", $custo
 ```
 
 ## TODO List
-- [x] Create and edit tools inside game
+- [ ] Create and edit tools inside game
 - [ ] Custom Tools craft
 - [ ] Fix mining speed
 - [ ] Fix glint
