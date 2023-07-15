@@ -1,0 +1,14 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Pedhot-Dev/CustomTools
+build-by-default: true
+branches:
+- master
+- PM5
+projects:
+  CustomTools:
+    path: ""
+    icon: "pickaxe.png"
+    libs:
+      - src: ACM-PocketMine-MP/Commando/Commando
+        version: ^3.2.1
+        branch: PM5
+...
